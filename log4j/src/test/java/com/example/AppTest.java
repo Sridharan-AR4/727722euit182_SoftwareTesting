@@ -55,6 +55,5 @@ public class AppTest
         driver.findElement((By.xpath("/html/body/app-root/div/div/div/app-login/div/div/div[2]/app-dynamic/div[3]/div/div/div/app-button/button"))).click();
         logger.info("login successfully");
         driver.quit();
-        
     }
 }
