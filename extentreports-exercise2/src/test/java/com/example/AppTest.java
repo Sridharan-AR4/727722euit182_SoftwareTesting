@@ -47,7 +47,19 @@ public class AppTest {
         Thread.sleep(3000);
         wait.until(ExpectedConditions.visibilityOfElementLocated((By.xpath("/html/body/main/div[2]/div[1]/div[3]/div[2]/div[1]/div[2]/div[3]/div[1]/li/div[2]/p[2]")))).click();
 
-        
+        // while(true){
+        //     String s = driver.findElement(By.xpath("/html/body/main/div[2]/div[1]/div[3]/div[2]/div[2]/div[3]/div/div[1]/div[1]/button[2]/span[1]")).getText();
+        //     String[] part = s.split(" ");
+        //     String month = part[0];
+        //     String year = part[1];
+
+        //     if(){
+        //         click;  
+        //         break;
+        //     }
+
+        //     else
+        // }
 
     }
 
